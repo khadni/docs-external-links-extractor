@@ -32,7 +32,7 @@ def parse_file(file_path):
     # Create a DataFrame from the data
     return pd.DataFrame(data, columns=["Page", "Position", "Link", "Reason"])
 
-file_path = "./log.txt"
+file_path = "./link-checker.log"
 
 # Parse the file and create a DataFrame
 df = parse_file(file_path)
