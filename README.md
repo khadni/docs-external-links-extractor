@@ -46,7 +46,7 @@ This script generates a log file `link-checker.log` in the `temp` folder with th
 
 ### Processing the Link Checker Output
 
-1.  Copy the `link-checker.log` log file from the `documentation` folder and paste it into the `docs-external-links-extractor` folder.
+1.  Copy the `link-checker.log` log file from the `documentation/temp/` folder and paste it into the `docs-external-links-extractor` folder.
 
 1.  In your terminal, run the Python script to parse the log file and generate a CSV file with link errors shown in a convenient format:
 
